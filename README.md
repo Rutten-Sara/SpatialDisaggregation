@@ -20,6 +20,7 @@ The main Rcode used in this paper is structured in two files:
 | --- | ---|
 | simulation.R | Simulation study code |
 | data_application_PBC.R | Main code for data application on PBC |
+
 The code on the Belgium data application is not provided, as the dataset is not publicly available. The code of this data application is available on request.
 
 The folder **functions** contains all functions necessary to fit our proposed method. These functions are called by the simulation.R and data_application_PBC.R main files. This folder contains the following functions:
