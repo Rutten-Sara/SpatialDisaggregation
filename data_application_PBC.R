@@ -530,7 +530,7 @@ sp::spplot(r5, sp.layout=bound, at = seq(0, 3.8, length.out = 17),
            as.table = TRUE)
 
 
-true_cov <- as.data.frame(cbind(grid, raster::extract(rstr_linear, grid)))
+true_cov <- as.data.frame(cbind(grid, raster::extract(covariate_raster, grid)))
 names(true_cov) <- c("x","y","xlin")
 
 pred_continuous_disaggr = disaggr_pred_continuous_incidence(fitted_disaggregation,  
