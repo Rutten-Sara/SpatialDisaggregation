@@ -69,7 +69,8 @@ plot(raster1_poly, border = "black", col = NA, lwd = 1)
 
 # Number of simulations
 N <- 100
-beta0 <- -3 # beta0 = -5
+beta0 <- -3 #default baseline
+#beta0 <- -5 #reduced baseline
 
 
 # Simulate from spatial process
