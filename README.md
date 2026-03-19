@@ -18,7 +18,7 @@ The main Rcode used in this paper is structured in two files:
 
 | Function | Description |
 | --- | ---|
-| simulation.R | Main simulation study code |
+| simulation_main.R | Main simulation study code |
 | simulation_additional.R | Simulation study code without covariate information (Supplementary Materials) |
 | data_application_PBC.R | Main code for data application on PBC |
 
